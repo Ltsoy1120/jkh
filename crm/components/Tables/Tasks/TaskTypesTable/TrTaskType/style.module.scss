@@ -1,0 +1,34 @@
+.wrapTr {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  .bold {
+    font-weight: 700;
+    margin: 0;
+  }
+}
+.inactive {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  td,
+  a,
+  span {
+    color: #c6d8e1 !important;
+  }
+  p {
+    margin: 0;
+  }
+}
+.row {
+  display: flex;
+  span {
+    margin-left: 10px;
+  }
+}

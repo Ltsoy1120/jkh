@@ -1,0 +1,110 @@
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 65px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+/* .descr {
+  width: 550px;
+  height: 250px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #062a3d;
+} */
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.inputBlockRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.controlBlock {
+  display: flex;
+  flex-direction: row;
+}
+
+.greyLabel {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+
+.titleblock {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 36px;
+}
+
+.infotabs {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.companyofficesa {
+  font-size: 14px;
+  line-height: 17px;
+  color: #1ea133;
+  text-decoration: underline 2px;
+}
+
+.requisites {
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c6d8e1;
+  text-decoration: underline 2px;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #062a3d;
+  margin-bottom: 28px;
+  margin-top: 40px;
+}
+
+.greentitle {
+  margin-bottom: 38px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1ea133;
+}
+
+.css-1smlk3z-MuiPaper-root {
+  padding-bottom: 60px;
+}
+
+.MuiFormLabel-filled {
+  display: none;
+}

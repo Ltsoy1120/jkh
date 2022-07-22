@@ -1,0 +1,37 @@
+.wrapTable {
+  margin-top: 50px;
+  td,
+  th {
+    //width: 15%;
+  }
+  td, th, {
+    min-width: 160px;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 150px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  td:nth-child(2),
+  th:nth-child(2) {
+    width: 280px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  td:nth-child(2),
+  th:nth-child(2) {
+    font-weight: 600;
+  }
+
+  thead > tr {
+    border-spacing: 49px 0;
+    display: block;
+  }
+}

@@ -1,0 +1,33 @@
+.buttonsFilter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.containerFilter {
+  display: flex;
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.absoluteBtn {
+  position: absolute;
+  right: 160px;
+  top: 115px;
+}
+
+.containerInputs {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.wrapBlock{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

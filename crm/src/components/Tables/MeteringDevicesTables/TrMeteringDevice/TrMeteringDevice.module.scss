@@ -1,0 +1,18 @@
+.wrapSwitch {
+  position: absolute;
+  .switch {
+    border-radius: 9px;
+  }
+  span {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+}
+
+.inactive {
+  a,
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+}

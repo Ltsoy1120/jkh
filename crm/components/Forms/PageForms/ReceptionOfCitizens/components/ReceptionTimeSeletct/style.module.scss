@@ -1,0 +1,38 @@
+.timeblock {
+  margin-left: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.timepicker {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 171px;
+}
+.timeItem,
+.selected {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  padding: 9px 20px;
+  width: 75px;
+  height: 37px;
+  margin: 10px;
+  background: #ffffff;
+  box-shadow: 1px 1px 25px #637f9926;
+  border-radius: 4px;
+  border: none;
+  &:active {
+    background: #1ea133;
+    color: white;
+  }
+}
+.selected {
+  color: white;
+  background: #1ea133;
+}

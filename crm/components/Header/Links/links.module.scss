@@ -1,0 +1,16 @@
+.ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  li {
+    list-style-type: none;
+    margin-right: 50px;
+
+    &:hover {
+      font-weight: 600;
+    }
+  }
+  .active {
+    font-weight: 600 !important;
+  }
+}

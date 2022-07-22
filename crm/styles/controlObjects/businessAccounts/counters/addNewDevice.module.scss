@@ -1,0 +1,23 @@
+.wrapper {
+  .wrapBtn {
+    position: absolute;
+    right: 160px;
+    top: 115px;
+    a:nth-child(1) {
+      margin-right: 20px;
+    }
+  }
+  .wrapCheckBox {
+    margin: 50px 0px;
+    span {
+      margin-left: 15px;
+      font-size: 14px;
+      line-height: 19px;
+      color: #062a3d;
+    }
+  }
+
+  .wrapAddPlus {
+    margin: 50px 0px;
+  }
+}

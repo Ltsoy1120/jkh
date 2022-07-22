@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  .label {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6b8795;
+    margin-bottom: 10px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .info {
+    border-radius: 4px;
+    border: 1px solid #eff1f5;
+    padding: 7px 15px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #062a3d;
+    min-width: 160px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.button {
+  height: 38px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  border: none;
+}
+
+.green {
+  background: #1ea133;
+  color: #fff;
+  font-weight: bold;
+}
+
+.white {
+  background: #fff;
+  color: #1ea133;
+  font-weight: normal;
+  border: 1px solid #1ea133;
+  font-size: 14px;
+  &:hover {
+    background: #1ea133;
+    color: #fff;
+    font-weight: bold;
+  }
+}

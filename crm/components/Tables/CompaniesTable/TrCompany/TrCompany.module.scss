@@ -1,0 +1,35 @@
+.tr {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 4px;
+  span {
+    text-align: left;
+    display: inline-block;
+  }
+  span:nth-child(1) {
+    width: 170px;
+    font-weight: 600;
+    a {
+      text-decoration: underline;
+      color: #1ea133;
+    }
+  }
+  span:nth-child(2) {
+    width: 300px;
+    margin-right: 10px;
+  }
+  span:nth-child(3),
+  span:nth-child(4),
+  span:nth-child(5) {
+    width: 150px;
+  }
+  span:nth-child(6) {
+    width: 150px;
+    span {
+      font-weight: normal;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.tableitem {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #062a3d;
+}
+.tnumber,
+.ttheme,
+.ttext {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.ttheme {
+  margin-left: 40px;
+  width: 320px;
+}
+.ttext {
+  width: 600px;
+}
+.number {
+  font-weight: 500;
+  text-decoration-line: underline;
+  color: #1ea133;
+  margin-bottom: 10px;
+}

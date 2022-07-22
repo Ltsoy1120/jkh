@@ -1,0 +1,29 @@
+.addGroup {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  color: #6b8795;
+  span {
+    width: 250px;
+  }
+}
+
+.contrainerPlus {
+  display: flex;
+  margin-left: 20px;
+}
+
+.plusOne {
+  position: relative;
+  background: #c6d8e1;
+}
+
+.plusOne:hover {
+  background: #e0e0e0;
+}
+
+.plusTwo {
+  position: absolute;
+  left: 30px;
+  background: white;
+}

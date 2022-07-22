@@ -1,0 +1,65 @@
+.Root {
+  width: 619px;
+  height: 125px;
+  display: flex;
+}
+
+.Close {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background: url(./images/close.svg);
+}
+
+.SuccessToast {
+  composes: Root;
+}
+
+.WarningToast {
+  composes: Root;
+}
+
+.ErrorToast {
+  composes: Root;
+}
+
+.Image {
+  width: 40px;
+  height: 40px;
+}
+
+.Success {
+  composes: Image;
+
+  background: url("./images/success.svg") no-repeat;
+}
+
+.Warning {
+  composes: Image;
+
+  background: url("./images/warning.svg") no-repeat;
+}
+
+.Error {
+  composes: Image;
+
+  background: url("./images/error.svg") no-repeat;
+}
+
+.Description {
+}
+
+.Header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.015em;
+  color: #061438;
+}
+
+.Text {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}

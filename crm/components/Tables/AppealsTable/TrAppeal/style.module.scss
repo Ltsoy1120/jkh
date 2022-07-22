@@ -1,0 +1,38 @@
+.wrapTr {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  span {
+    font-weight: 600;
+  }
+  .wrapSwitch {
+    display: flex;
+    pointer-events: none;
+    span {
+      margin-left: 10px;
+      font-weight: 600;
+    }
+  }
+  .bold {
+    font-weight: 700;
+  }
+}
+.inactive {
+  td {
+    color: #c6d8e1 !important;
+  }
+}
+.containerStar {
+  color: #f2c94c;
+}
+// .arrowSpan {
+//   color: #196a26;
+//   text-decoration: underline;
+// }
+
+// .arrowSpan > span {
+//   font-size: 20px;
+//   text-decoration: none;
+// }

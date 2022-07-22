@@ -1,0 +1,23 @@
+.wrapFilter {
+  width: 1150px;
+  height: 155px;
+  padding: 30px 15px;
+  background-color: #f9f9fa;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  position: relative;
+  .rightBlock {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span {
+      cursor: pointer;
+      font-size: 12px;
+      line-height: 15px;
+      color: #6b8795;
+      margin-top: 20px;
+    }
+  }
+}

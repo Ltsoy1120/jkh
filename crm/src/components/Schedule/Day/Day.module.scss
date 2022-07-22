@@ -1,0 +1,31 @@
+.wrapper {
+  width: 138px;
+  height: 304px;
+  .wrapSwitch {
+    margin-bottom: 58px;
+    div {
+      border-radius: 9px;
+    }
+    span {
+      margin-left: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #062a3d;
+    }
+  }
+  .wrapInputs {
+    height: 227px;
+    width: 100%;
+    .noReception {
+      background-color: #f5f8fd;
+      border-radius: 4px;
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #062a3d;
+      }
+    }
+  }
+}

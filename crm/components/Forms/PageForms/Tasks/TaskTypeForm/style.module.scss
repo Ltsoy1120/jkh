@@ -1,0 +1,34 @@
+.wrapper {
+  h2 {
+    margin-bottom: 20px;
+  }
+  .rowCenter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .row {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .wrapSwitch {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 30px;
+    .switch {
+      border-radius: 9px;
+    }
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      color: #062a3d;
+      margin-left: 10px;
+    }
+    .inactive {
+      color: #c6d8e1;
+    }
+  }
+}

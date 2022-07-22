@@ -1,0 +1,28 @@
+.wrapTr {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .area {
+    display: flex;
+    flex-direction: column;
+    span {
+      display: inline-block;
+      font-weight: normal;
+      margin-bottom: 8px;
+    }
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    span:nth-child(1) {
+      display: inline-block;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+  }
+}

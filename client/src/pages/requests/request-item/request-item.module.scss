@@ -1,0 +1,125 @@
+.tableitem {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 122px;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #062a3d;
+}
+
+.tnumber {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+.number {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #1ea133;
+  margin-bottom: 10px;
+}
+
+.done,
+.canceled,
+.new {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 100px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.done {
+  background: #c6d8e1;
+  color: #6b8795;
+}
+
+.new {
+  background: #ded6fd;
+  color: #7b61ff;
+}
+
+.canceled {
+  background: #fdd6db;
+  color: #eb5757;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.fullstar {
+  background: url(../../../../public/image/starfull.png) no-repeat center center;
+  border-radius: 1px;
+  width: 22px;
+  height: 22px;
+}
+
+.star {
+  background: url(../../../../public/image/starempty.png) no-repeat center
+    center;
+  border-radius: 1px;
+  width: 22px;
+  height: 22px;
+}
+
+.tdate {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+.createDateLabel {
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+
+.ttext {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-right: 20px;
+  overflow-y: auto;
+}
+
+.tauthor {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.tresult {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}

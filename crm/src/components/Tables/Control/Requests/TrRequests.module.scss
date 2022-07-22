@@ -1,0 +1,76 @@
+.wrapSwitch {
+  position: absolute;
+  .switch {
+    border-radius: 9px;
+  }
+}
+
+.td {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.arrowSpan {
+  color: #196a26;
+  text-decoration: underline;
+}
+
+.arrowSpan > span {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.inactive {
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+}
+
+.wrapTr {
+  border-spacing: 49px 0;
+  display: block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.high,
+.critical,
+.middle {
+  display: flex;
+  align-items: end;
+  gap: 7px;
+  font-weight: 500;
+}
+
+.high {
+  color: orange;
+}
+
+.critical {
+  color: #f7112d;
+}
+
+.middle {
+  color: #7b61ff;
+}
+
+.wrapTr a {
+  text-decoration: underline;
+  color: #1ea133;
+}
+
+.containerStar {
+  color: #f2c94c;
+}
+
+.grayText {
+  color: #6b8795;
+}
+
+.mb15 {
+  margin-bottom: 15px !important;
+}

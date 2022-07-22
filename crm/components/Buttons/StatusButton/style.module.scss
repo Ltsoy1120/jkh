@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.new {
+  background: #ded6fd;
+  color: #7b61ff;
+}
+.progress {
+  background: #b8eec1;
+  color: #1ea133;
+}
+.postponed {
+  background: yellow;
+  color: #fa920a;
+}
+.finish {
+  background: #c6d8e1;
+  color: #6b8795;
+}
+.canceled {
+  background: #fdd6db;
+  color: #eb5757;
+}

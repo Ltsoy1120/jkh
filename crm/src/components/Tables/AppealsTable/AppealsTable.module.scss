@@ -1,0 +1,26 @@
+.wrapTable {
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 175px;
+  }
+  td:nth-child(2),
+  th:nth-child(2) {
+    width: 160px;
+  }
+  td:nth-child(3),
+  th:nth-child(3) {
+    width: 180px;
+  }
+  td:nth-child(4),
+  th:nth-child(4) {
+    width: 198px;
+  }
+  td:nth-child(5),
+  th:nth-child(5) {
+    width: 215px;
+  }
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 195px;
+  }
+}

@@ -1,0 +1,229 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 65px;
+}
+
+.titleblock {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 36px;
+}
+.titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.buttondiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.requestInfo {
+  display: flex;
+  width: 210px;
+  height: 248px;
+  background: #f9f9fa;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.pageTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #062a3d;
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.requestInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tdate {
+  display: flex;
+  flex-direction: column;
+}
+
+.createDateLabel {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+
+.inwork {
+  background: #b8eec1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60px;
+  height: 25px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  color: #1ea133;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #062a3d;
+}
+
+.data {
+  width: 360px;
+  background: #f9f9fa;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #062a3d;
+}
+
+.requestData {
+  display: flex;
+  margin-left: 75px;
+  flex-direction: column;
+}
+
+.executantInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.tel {
+  margin-left: 20px;
+}
+
+.requestResultImage {
+  margin-top: 34px;
+  padding: 20px;
+  background: url(../public/image/docs.png) no-repeat center center;
+  border-radius: 4px;
+  width: 75px;
+  height: 83px;
+}
+.requestResultTitle {
+  margin-bottom: 20px;
+}
+
+.fullstar {
+  background: url(../public/image/starfull.png) no-repeat center center;
+  border-radius: 1px;
+  width: 22px;
+  height: 22px;
+}
+
+.star {
+  background: url(../public/image/starempty.png) no-repeat center center;
+  border-radius: 1px;
+  width: 22px;
+  height: 22px;
+}
+
+.rating {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.toolbar {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.toolbar p {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.point {
+  margin: 0 10px;
+}
+
+.toolbar .btn {
+  color: white;
+  background-color: #1ea133;
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.timetoolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 50px;
+  width: 323px;
+  height: 219px;
+  background: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  border-radius: 4px;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

@@ -1,0 +1,38 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  label {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6b8795;
+    margin-bottom: 10px;
+  }
+  input {
+    height: 37px;
+    border-radius: 4px;
+    background: #ffffff;
+    outline: none !important;
+    padding: 0 0 0 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    box-sizing: border-box;
+    color: #062a3d;
+    &::placeholder {
+      color: #6d9bb4;
+    }
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+    }
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+  }
+  &:focus {
+    border: 1px solid #1ea133;
+  }
+}

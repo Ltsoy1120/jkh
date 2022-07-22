@@ -1,0 +1,9 @@
+.wrapButtons,
+.centerButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.centerButtons {
+  justify-content: center;
+}

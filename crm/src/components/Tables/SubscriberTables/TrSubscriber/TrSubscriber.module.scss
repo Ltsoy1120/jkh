@@ -1,0 +1,44 @@
+.wrapSwitch {
+  position: absolute;
+
+  .switch {
+    border-radius: 9px;
+  }
+
+  span {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+}
+
+.wrapperSwith {
+  display: flex;
+  flex-direction: column;
+}
+
+.nemInput {
+  margin-top: 18px;
+  margin-bottom: 50px;
+}
+
+.plus {
+  margin-left: 20px;
+}
+
+.inactive {
+  a,
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+}
+
+.switchBlock {
+  margin-bottom: 50px;
+
+  span {
+    margin-left: 7px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

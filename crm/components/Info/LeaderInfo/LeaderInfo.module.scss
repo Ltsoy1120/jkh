@@ -1,0 +1,18 @@
+.title {
+  font-weight: 600;
+  margin-bottom: 30px;
+  span {
+    font-size: large;
+    margin-left: 20px;
+  }
+}
+.wrapper {
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .wrapButtons {
+    margin-top: 50px;
+  }
+}

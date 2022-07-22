@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  .wrapAvatar {
+    .wrap {
+      width: 170px;
+      .span {
+        font-size: 14px;
+        line-height: 19px;
+        color: #062a3d;
+      }
+      .wrapSwitch {
+        margin: 20px 0px 30px;
+        .switch {
+          border-radius: 9px;
+        }
+        span {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          color: #062a3d;
+          margin-left: 10px;
+        }
+        .inactive {
+          color: #c6d8e1;
+        }
+      }
+    }
+  }
+
+  .rightBlock {
+    margin-left: 78px;
+    .wrapBtn {
+      margin-bottom: 50px;
+    }
+    .wrapCheckBox {
+      margin: 38px 0px 60px;
+      span {
+        margin-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #062a3d;
+      }
+      .active {
+        font-weight: 600;
+        color: #1ea133;
+      }
+    }
+  }
+
+  .wrapButtons {
+    margin-top: 20px;
+  }
+}

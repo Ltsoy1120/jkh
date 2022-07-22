@@ -1,0 +1,36 @@
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 65px;
+}
+
+.titleblock {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 36px;
+}
+
+.titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.pagetitle {
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  color: #6b8795;
+}
+
+.buttondiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  .wrap {
+    width: 100%;
+    .main {
+      width: 100%;
+      padding: 97px 60px 60px 150px;
+      display: block;
+      position: relative;
+      h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #062a3d;
+      }
+      .breadcrumbs {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #6b8795;
+        display: block;
+        margin-bottom: 36px;
+      }
+    }
+  }
+}

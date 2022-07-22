@@ -1,0 +1,51 @@
+.infoblock {
+  display: flex;
+  flex-direction: row;
+}
+
+.table {
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.tablehead {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+}
+
+.tnumber {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+.tdate {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+
+.ttext {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-right: 20px;
+  overflow-y: auto;
+}
+
+.tauthor {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.tres {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}

@@ -1,0 +1,367 @@
+.wrapSwitch {
+  position: absolute;
+  .switch {
+    border-radius: 9px;
+  }
+  span {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+}
+
+.inactive {
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+}
+
+
+.infoblock {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.table {
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.tableinfo {
+  margin-top: 5px;
+
+}
+
+.tablehead {
+  display: flex;
+  flex-direction: row;
+  padding: 0 15px;
+}
+.tablepanel {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  width: auto;
+  height: 83px;
+  background: linear-gradient(270deg, #19AF31 41.07%, #138125 100%);
+  border-radius: 0px 4px 4px 0px;
+}
+
+.tablebutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 50px;
+}
+.tablebutton {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.tableitem {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: 83px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #062A3D;
+}
+
+.tnumber {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  padding: 15px;
+}
+
+.number {
+  margin-bottom: 10px;
+}
+
+.done {
+  margin-bottom: 10px;
+}
+
+.tdate {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  padding: 15px;
+}
+
+.ttype {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  padding: 15px;
+}
+
+.ttext {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  padding: 15px;
+}
+
+.tauthor {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  padding: 15px;
+}
+
+.tres {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  padding: 15px;
+}
+
+.infoteka {
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: row;
+}
+.infotabs {
+  margin-left: 15px;
+}
+
+.infot {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.infoc {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+.info {
+  text-align: left;
+  margin: 20px 10px;
+}
+
+.formblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 159px;
+  width: auto;
+  background: #EFF1F5;
+  color: #6B8795;
+  font-size: 12px;
+}
+
+.formleft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.buttondiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.createDate {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 40px 15px;
+}
+
+.createDateInput {
+  background: #fff;
+  width: 265px;
+  height: 37px;
+  padding: 0;
+}
+
+.createDateLabel {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6B8795;
+
+}
+
+.submitBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 40px 15px;
+}
+
+.button{
+  width: 113px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #1EA133;
+  color: #fafafa;
+  text-align: center;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  border: 0px;
+}
+
+.buttonbox {
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;
+  min-width: auto;
+  margin-bottom: 15px;
+}
+
+.number {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #1EA133;
+}
+
+.done {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 94px;
+  height: 25px;
+  padding: 5px 10px;
+  background: #C6D8E1;
+  border: none;
+  border-radius: 2px;
+  color: #6B8795;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.new {
+  background: #DED6FD;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60px;
+  height: 25px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  color: #7B61FF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.canceled {
+  background: #FDD6DB;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 84px;
+  height: 25px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  color: #EB5757;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.fullstar {
+  background: url(../../../public/image/starfull.png) no-repeat center center;
+  border-radius: 1px;
+  width: 22px;
+  height: 22px;
+}
+
+.star {
+  background: url(../../../public/image/starempty.png) no-repeat center center;
+  border-radius: 1px;
+  width: 22px;
+  height: 22px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+.greenstripe {
+  width: 15px;
+  height: 83px;
+  background: #1EA133;
+  border-radius: 0px 4px 4px 0px;
+}
+.errorText {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.errorTextt {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 19px;
+  color: #EB5757;
+}
+.warning {
+  width: 15px;
+  height: 15px;
+}
+.add {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+.sandwatch {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+.marg {
+  margin-bottom: 10px;
+}
+.tnormal {
+  font-weight: 400;
+}

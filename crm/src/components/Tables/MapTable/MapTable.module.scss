@@ -1,0 +1,35 @@
+.wrapTable {
+  td,
+  th {
+    width: 290px;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 80px;
+    font-weight: 600;
+  }
+  td:nth-child(2),
+  th:nth-child(2) {
+    width: 200px;
+  }
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 185px;
+  }
+  th:nth-child(2),
+  td:last-child,
+  th:last-child {
+    text-align: center !important;
+  }
+  td {
+    padding: 15px 0 0 !important;
+    vertical-align: top;
+  }
+  td > p {
+    margin-top: 0 !important;
+  }
+  td:last-child,
+  td:nth-child(2) {
+    box-sizing: border-box;
+  }
+}

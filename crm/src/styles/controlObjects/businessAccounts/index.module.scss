@@ -1,0 +1,47 @@
+.wrapper {
+  .wrapBtn {
+    position: absolute;
+    right: 160px;
+    top: 115px;
+
+    a:nth-child(1) {
+      margin-right: 20px;
+    }
+  }
+
+  h2 {
+    display: inline-block;
+    margin-bottom: 18px;
+  }
+
+  .wrap {
+    margin-bottom: 50px;
+  }
+
+  .wrapTwo {
+    margin-bottom: 20px;
+  }
+
+  .wrapThree {
+    margin-bottom: 10px;
+  }
+
+  .total {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #062a3d;
+  }
+
+  .wrapName {
+    margin-bottom: 30px;
+  }
+
+  .wrapInput {
+    margin-bottom: 30px;
+  }
+
+  .wrapButtons {
+    margin-top: 50px;
+  }
+}

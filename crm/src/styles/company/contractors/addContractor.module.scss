@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  .wrapAvatar {
+    .wrap {
+      width: 170px;
+      .wrapSwitch {
+        margin-top: 10px;
+        .switch {
+          border-radius: 9px;
+        }
+        span {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          color: #062a3d;
+          margin-left: 10px;
+        }
+        .inactive {
+          color: #c6d8e1;
+        }
+      }
+    }
+  }
+
+  .wrapForms {
+    margin-left: 78px;
+    .wrap {
+      margin-bottom: 20px;
+    }
+    .wrapApplicationTypes {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    h2 {
+      display: inline-block;
+      margin-bottom: 18px;
+    }
+  }
+  .wrapButtons {
+    margin-top: 50px;
+  }
+  .wrapName {
+    margin-bottom: 30px;
+  }
+  .wrapSimpleSelect {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.wrapSimpleSelect > div + div {
+  margin-top: 25px;
+  margin-left: 20px;
+}

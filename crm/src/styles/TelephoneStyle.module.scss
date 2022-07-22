@@ -1,0 +1,27 @@
+.PhoneInput{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.PhoneInputFirst{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.PhoneGrid{
+    display: grid;
+    grid-template-columns: repeat(2,360px);
+    column-gap:20px;
+}
+.PhoneGrid:first-child{
+    column-span: 2;
+}
+.ButtonPosition{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    column-gap:30px;
+    margin-top: 20px;
+}
+.DeliteButton{
+    right: 160px;
+    top: 115px;
+    position: absolute;
+}

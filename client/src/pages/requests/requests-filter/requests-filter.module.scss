@@ -1,0 +1,51 @@
+.formblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: #eff1f5;
+  color: #6b8795;
+  font-size: 12px;
+}
+
+.formleft,
+.dateData {
+  display: flex;
+  flex-direction: row;
+}
+
+.dateData {
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.dateLabel {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.filterItem {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 15px;
+  color: black;
+}
+
+.filterItemLabel {
+  margin-bottom: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+
+.submitBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}

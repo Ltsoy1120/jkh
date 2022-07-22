@@ -1,0 +1,27 @@
+.wrapTable {
+  tr {
+    padding: 20px 20px 20px 30px;
+    border-spacing: 0;
+  }
+  td,
+  th {
+    width: 150px;
+    font-weight: 600;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 100px;
+    color: #1ea133;
+  }
+  td:nth-child(4),
+  th:nth-child(4),
+  td:nth-child(5),
+  th:nth-child(5) {
+    width: 180px;
+  }
+
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 350px;
+  }
+}

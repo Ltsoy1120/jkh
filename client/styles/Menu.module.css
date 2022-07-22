@@ -1,0 +1,79 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    background: rgb(25,175,49);
+    background: linear-gradient(180deg, rgba(25,175,49,1) 0%, rgba(11,85,23,1) 35%);
+    width: 70px;
+    height: 100vh;
+}
+
+.companyicon {
+    height: 30px;
+    width: 30px;
+    z-index: 100;
+    color: white;
+    padding: 28px;
+    margin: 8px;
+    background: url(../public/image/icon-company.svg) no-repeat center center;
+}
+
+.dispetchericon {
+    padding-left: 5px;
+    height: 56px;
+    width: 30px;
+    color: white;
+}
+
+.dispetchericons {
+    margin-top: 10px;
+    width: 66px;
+    height: 40px;
+    background: url(../public/image/icon-dispetcher.svg) no-repeat center center,
+    #FFFFFF;
+    border-radius: 40px 0px 0px 40px;
+}
+
+.issuesicon {
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 28px;
+    margin: 8px;
+    background: url(../public/image/icon-issues.svg) no-repeat center center;
+}
+
+.attendanceicon {
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 28px;
+    margin: 8px;
+    background: url(../public/image/icon-attendance.svg) no-repeat center center;
+}
+
+.communalicon {
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 28px;
+    margin: 8px;
+    background: url(../public/image/icon-communal.svg) no-repeat center center;
+}
+
+.metericon {
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 28px;
+    margin: 8px;
+    background: url(../public/image/icon-meter.svg) no-repeat center center;    
+}
+
+.notificationicon {
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 28px;
+    margin: 8px;
+    background: url(../public/image/icon-notification.svg) no-repeat center center;       
+}

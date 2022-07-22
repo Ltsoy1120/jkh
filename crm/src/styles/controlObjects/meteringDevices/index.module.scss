@@ -1,0 +1,40 @@
+.wrapper {
+  .wrapBtn {
+    position: absolute;
+    right: 160px;
+    top: 115px;
+
+    a:nth-child(1) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.wrapMagazine {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.wrapBlock {
+  justify-content: space-between;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.btnBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.block {
+  margin-top: 16px;
+}
+
+.text {
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 19px;
+}

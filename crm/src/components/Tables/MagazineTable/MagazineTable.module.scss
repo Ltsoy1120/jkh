@@ -1,0 +1,23 @@
+.wrapTable {
+  margin-top: 50px;
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 175px;
+  }
+  td:nth-child(2),
+  th:nth-child(2) {
+    width: 175px;
+  }
+  td:nth-child(3),
+  th:nth-child(3) {
+    width: 180px;
+  }
+  td:nth-child(4),
+  th:nth-child(4) {
+    width: 310px;
+  }
+  td:nth-child(5),
+  th:nth-child(5) {
+    width: 240px;
+  }
+}

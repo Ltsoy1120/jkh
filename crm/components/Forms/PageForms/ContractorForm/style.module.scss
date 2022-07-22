@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  .wrapAvatar {
+    .output {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      background: #e2edf3;
+    }
+    .logo,
+    img {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      border: 1px solid #e2edf3;
+    }
+    span {
+      display: flex;
+    }
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 170px;
+      .span {
+        font-size: 14px;
+        line-height: 19px;
+        color: #062a3d;
+      }
+      .wrapSwitch {
+        display: flex;
+        align-items: center;
+        margin: 20px 0px 30px;
+        .switch {
+          border-radius: 9px;
+        }
+        span {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 19px;
+          color: #062a3d;
+          margin-left: 10px;
+        }
+        .inactive {
+          color: #c6d8e1;
+        }
+      }
+    }
+  }
+  .wrapForms {
+    margin-left: 78px;
+    h2 {
+      margin-bottom: 20px;
+    }
+    .wrap {
+      margin: 18px 0px 20px;
+      .wrapInput {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .wrapCheckBox {
+      margin: 38px 0px 60px;
+      span {
+        margin-left: 15px;
+        font-size: 14px;
+        line-height: 19px;
+        color: #062a3d;
+      }
+    }
+    .phones,
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+    .phones {
+      margin-bottom: 30px;
+    }
+  }
+  .wrapButtons {
+    margin-top: 20px;
+  }
+}

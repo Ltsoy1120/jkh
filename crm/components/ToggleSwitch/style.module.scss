@@ -1,0 +1,26 @@
+.toggleSwitch {
+  background-color: #ececec;
+  transition: all 250ms ease-in-out;
+  width: 29px;
+  height: 18px;
+  border-radius: 9px;
+  padding: 1px;
+  overflow: hidden;
+  cursor: pointer;
+  .circle {
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 1px 1px rgba(0, 0, 0, 0.16),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+    transition: all 200ms ease-in-out;
+  }
+}
+
+.active {
+  background-color: #1ea133;
+  .circle {
+    transform: translate(11px, 0);
+  }
+}

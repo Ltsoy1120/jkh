@@ -1,0 +1,22 @@
+.wrap {
+  .green {
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #1ea133;
+  }
+
+  .bold {
+    font-weight: 600 !important;
+    display: block;
+  }
+}
+
+.map svg:hover {
+  fill: #6b8795;
+}
+
+.geo {
+  text-align: center !important;
+  //vertical-align: middle;
+}

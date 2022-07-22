@@ -1,0 +1,33 @@
+.wrapTr {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  span {
+    font-weight: 600;
+  }
+  .wrapSwitch {
+    display: flex;
+    pointer-events: none;
+    span {
+      margin-left: 10px;
+      font-weight: 600;
+    }
+  }
+  td {
+    padding: 15px 0px;
+    span:nth-child(1) {
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+  }
+}
+.inactive {
+  td {
+    color: #c6d8e1 !important;
+  }
+}

@@ -1,0 +1,59 @@
+.wrapper {
+  width: 740px;
+  overflow: hidden;
+  height: 25px;
+  margin-bottom: 30px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+  .titleWrap {
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 180px;
+    svg {
+      margin-left: 18px;
+    }
+  }
+
+  .line {
+    height: 1px;
+    background-color: #eff1f5;
+    width: 100%;
+    margin: 18px 0px;
+  }
+
+  .left {
+    width: 190px;
+  }
+  .wrapIcons {
+    svg {
+      fill: #c6d8e1;
+      cursor: pointer;
+      &:hover {
+        fill: #6b8795;
+      }
+    }
+  }
+
+  .right {
+    span {
+      font-size: 12px;
+      line-height: 15px;
+      color: #6b8795;
+    }
+  }
+}
+
+.show {
+  height: auto;
+  margin-bottom: 20px;
+  .titleWrap {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}

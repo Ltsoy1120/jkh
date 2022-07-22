@@ -1,0 +1,7 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://jhk:jhk@cluster0.1jkgt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000",
+  "jwtAccessSecret": "jhk-access",
+  "jwtRefreshSecret": "jhk-refresh"
+}

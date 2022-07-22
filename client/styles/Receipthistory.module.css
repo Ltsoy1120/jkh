@@ -1,0 +1,500 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.css-1smlk3z-MuiPaper-root{
+    padding-bottom: 60px;
+}
+  
+.MuiFormLabel-filled {
+    display: none;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 65px;
+}
+
+.breadcrumbs {
+    color: #6B8795;
+}
+
+.titleblock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.titlediv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.pagetitle {
+    text-transform: uppercase;
+}
+
+.infoblock {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.companyimage {
+    margin-top: 40px;
+    width: 171px;
+    height: 171px;
+    left: 159px;
+    top: 194px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 16px rgba(136, 165, 191, 0.15);
+    background: url(../public/image/company-logo.png) no-repeat left center;
+}
+
+.companyinfo {
+    padding: 45px 40px 0 115px;
+}
+
+.namelabel {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.companyname {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.labels {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.companyoffices {
+    font-size: 14px;
+    line-height: 17px;
+    color: #1EA133;
+    text-decoration: underline 1px;
+}
+
+.requisites {
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C6D8E1;
+    text-decoration: underline 1px;
+}
+
+.table {
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.tableinfo {
+    margin-top: 5px;
+}
+
+.tablehead {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+}
+
+.tableitem {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 15px 30px;
+    box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+/* identical to box height, or 146% */
+
+
+/* тест */
+
+color: #062A3D;
+}
+
+.tnumber {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.number {
+    margin-bottom: 10px;
+}
+
+.tdate {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+
+.ttext {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+.ttype {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+.tauthor {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+
+.tres {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+
+.infoteka {
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    flex-direction: row;
+}
+
+.infot {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.infoc {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.info {
+    text-align: left;
+    margin: 20px 10px;
+}
+
+.formblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 226px;
+    width: auto;
+    background: #F5F8FD;
+    color: #6B8795;
+    font-size: 12px;
+}
+
+.firstRow {
+    padding: 30px 15px 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.secondRow {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 127px;
+}
+
+.buttondiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.createDate {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.createDateInput {
+    border: "none";
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 265px;
+    height: 37px;
+}
+
+.createDateLabel {
+    margin-bottom: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B8795;
+
+}
+
+.submitBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 5px 15px;
+}
+
+.button{
+    width: 113px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1EA133;
+    color: #fafafa;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .buttonbox {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    min-width: auto;
+    margin-bottom: 5px;
+  }
+
+  .number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height, or 146% */
+    
+    text-decoration-line: underline;
+    
+    color: #1EA133;
+  }
+
+  .done {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 84px;
+    height: 25px;
+    padding: 5px 10px;
+    background: #B8EEC1;
+    border: none;
+    border-radius: 2px;
+    color: #1EA133;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .new {
+    background: #DED6FD;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 102px;
+    height: 25px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    color: #7B61FF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .canceled {
+    background: #FDD6DB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 84px;
+    height: 25px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    color: #EB5757;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .fullstar {
+    background: url(../public/image/starfull.png) no-repeat center center;
+    border-radius: 1px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .star {
+    background: url(../public/image/starempty.png) no-repeat center center;
+    border-radius: 1px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .rating {
+      display: flex;
+      flex-direction: row;
+  }
+
+
+  .inputBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+
+  .wrapInput {
+    width: 265px;
+  }
+
+  .inputBlocks {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .inputBlockRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .alertWindow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 30px 14px 22px;
+    background: #FDDEE2;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 23px 15px 3px;
+    color: #E82F45;
+}
+
+.alertWindowMessage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.alertWindowNumber {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 6px;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    text-align: right;
+    color: #E82F45;
+}
+
+.titleblock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.toolbar {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.toolbar p{
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.point{
+    margin: 0 10px;
+}
+
+.toolbar .btn {
+    color: white;
+    background-color: #1EA133;
+    width: auto;
+    height: 100%;
+    display: block;
+    margin-left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.timetoolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.css-1smlk3z-MuiPaper-root{
+    padding-bottom: 60px;
+  }
+  
+  .MuiFormLabel-filled {
+    display: none;
+  }
+  

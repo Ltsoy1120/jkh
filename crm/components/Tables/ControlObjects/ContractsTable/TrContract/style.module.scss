@@ -1,0 +1,29 @@
+.wrapTr {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  .column {
+    display: flex;
+    flex-direction: column;
+    max-height: 100px;
+    overflow-y: auto;
+    span {
+      margin-top: 8px;
+      font-weight: normal;
+    }
+    span:nth-child(1) {
+      margin-top: 0;
+    }
+  }
+  td {
+    span:nth-child(1) {
+      margin-top: 8px;
+      font-weight: normal;
+    }
+  }
+}

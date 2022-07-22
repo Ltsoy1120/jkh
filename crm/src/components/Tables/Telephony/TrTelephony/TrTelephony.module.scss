@@ -1,0 +1,54 @@
+
+.inactive {
+  a,
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+}
+
+.negative {
+  color: red;
+  font-weight: normal;
+}
+
+.positive {
+  color: green;
+  font-weight: normal;
+}
+
+.containerPlayer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.iconPlay:hover > svg {
+  fill: #1EA133;
+}
+
+.playing {
+  width: 100%;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+
+  span {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    transition: all 100ms ease-in-out;
+  }
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.wrapSwitch {
+  justify-content: space-around;
+}

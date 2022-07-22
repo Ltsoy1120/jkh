@@ -1,0 +1,39 @@
+.wrapTable {
+  tr {
+    display: flex;
+  }
+  td,
+  th {
+    width: 180px;
+    border-spacing: 0;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    span {
+      font-weight: 600;
+    }
+  }
+  td:nth-child(2),
+  th:nth-child(2) {
+    width: 250px;
+    span {
+      font-weight: 600;
+    }
+  }
+  td:nth-child(3),
+  th:nth-child(3) {
+    font-weight: 600;
+  }
+  td:nth-child(4),
+  th:nth-child(4) {
+    width: 200px;
+    p {
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 150px;
+  }
+}

@@ -1,0 +1,29 @@
+.wrapTable {
+  thead {
+    border-spacing: 10px 0;
+  }
+  td {
+    width: 50%;
+  }
+
+  td:nth-child(2) {
+    a {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 19px;
+      text-decoration-line: underline;
+      color: #1ea133;
+      margin-left: 20px;
+      &:hover {
+        font-weight: 600;
+      }
+    }
+  }
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 185px;
+  }
+  tr {
+    vertical-align: top;
+  }
+}

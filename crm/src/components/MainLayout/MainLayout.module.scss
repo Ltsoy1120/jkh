@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+
+  .wrap {
+    width: 100%;
+
+    .main {
+      width: 100%;
+      padding: 97px 160px 60px 160px;
+      display: block;
+      position: relative;
+    }
+  }
+
+  .breadcrumbs {
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+}

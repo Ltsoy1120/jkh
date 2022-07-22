@@ -1,0 +1,25 @@
+.btn {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  border: 2px solid #eff1f5;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    fill: #eff1f5;
+  }
+  &:hover {
+    border: 2px solid #c6d8e1;
+    background-color: #c6d8e1;
+    svg {
+      fill: #ffffff;
+    }
+  }
+}
+
+.check:hover {
+  background-color: #1ea133;
+  border: none;
+}

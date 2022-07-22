@@ -1,0 +1,52 @@
+.status {
+  padding: 6px 10px;
+  border-radius: 4px;
+  // max-width: 93px;
+  span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1ea133;
+  }
+}
+
+.agreed {
+  background-color: #b8eec1;
+  color: #1ea133;
+}
+
+.completed {
+  background-color: #c6d8e1;
+  color: #6b8795;
+}
+
+.canceled {
+  background-color: #fdd6db;
+  color: #eb5757;
+}
+
+.new {
+  background-color: #ded6fd;
+  color: #7b61ff;
+}
+
+.underConsideration {
+  background-color: #b8eec1;
+  color: #1ea133;
+}
+
+
+.paid {
+  background-color: #b8eec1;
+  color: #1ea133;
+}
+
+.considered {
+  background-color: #c6d8e1;
+  color: #6b8795;
+}
+
+.atWork {
+  background-color: #b8eec1;
+  color: #1ea133;
+}

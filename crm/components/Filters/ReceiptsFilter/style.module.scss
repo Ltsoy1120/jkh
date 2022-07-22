@@ -1,0 +1,17 @@
+.wrapFilter {
+  padding: 20px 15px;
+  background-color: #f9f9fa;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  position: relative;
+  .column {
+    display: flex;
+    flex-direction: column;
+    .row {
+      display: flex;
+      margin-bottom: 30px;
+    }
+  }
+}

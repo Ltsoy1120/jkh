@@ -1,0 +1,16 @@
+.wrapper {
+  .phones,
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 30px;
+  }
+  .phones {
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .wrapButtons {
+    margin-top: 50px;
+  }
+}

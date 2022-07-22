@@ -1,0 +1,166 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.titleblock {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 36px;
+}
+.titlediv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.pagetitle {
+  text-transform: uppercase;
+}
+
+.infoblock {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 65px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.formdiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.controlBlock {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.greyLabel {
+  margin-bottom: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+
+.bigGreyLabel {
+  margin-left: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6b8795;
+}
+
+.button {
+  width: 129px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #1ea133;
+  color: #fafafa;
+  text-align: center;
+  padding: 9px 12px;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  border: 0px;
+}
+
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: auto;
+  margin-right: 30px;
+}
+
+.plusIcon {
+  align-items: center;
+  justify-content: center;
+  width: 37px;
+  height: 37px;
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.textFieldWrapper {
+  width: 455px;
+}
+.selectWrapper {
+  width: 455px;
+  margin-bottom: 20px;
+}
+.agreement {
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #062a3d;
+}
+
+.pageTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #062a3d;
+}
+
+.breadcrumbs {
+  font-size: 12px;
+  line-height: 15px;
+  color: #6b8795;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.text {
+  color: #062a3d;
+  margin-left: 16px;
+  font-size: 14px;
+  line-height: 19px;
+}

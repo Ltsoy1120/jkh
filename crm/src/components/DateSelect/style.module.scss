@@ -1,0 +1,40 @@
+.toolbar {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.toolbar p {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.point {
+  margin: 0 10px;
+}
+
+.toolbar .btn {
+  color: white;
+  background-color: #1ea133;
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.timetoolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

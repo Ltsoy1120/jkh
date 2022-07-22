@@ -1,0 +1,21 @@
+.wrapper {
+  h2 {
+    display: inline-block;
+    margin-bottom: 18px;
+  }
+
+  .wrapDadeAndTime {
+    h2 {
+      span {
+        color: #1ea133;
+      }
+    }
+    .note {
+      font-size: 12px;
+      line-height: 15px;
+      color: #062a3d;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}

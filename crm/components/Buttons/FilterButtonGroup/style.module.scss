@@ -1,0 +1,11 @@
+.buttonsFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  span {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6b8795;
+  }
+}

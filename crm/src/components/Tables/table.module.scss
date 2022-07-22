@@ -1,0 +1,158 @@
+$table_width: 1150px;
+
+.wrapTable {
+  width: 100%; //table width
+  th,
+  td {
+    padding: 0;
+    border: 0;
+    text-align: left;
+  }
+
+  thead {
+    tr {
+      display: block;
+      position: relative;
+      padding-bottom: 5px;
+      padding-left: 30px;
+
+      th {
+        font-weight: 400 !important;
+        font-size: 12px;
+        line-height: 15px;
+        color: #6b8795;
+      }
+    }
+  }
+
+  tbody {
+    display: block;
+    width: 100%; //Table width
+    font-size: 13px;
+    line-height: 19px;
+    color: #062a3d;
+
+    .wrap {
+      background-color: #ffffff;
+      box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+      margin-bottom: 10px;
+      border-radius: 0px 4px 4px 0px;
+      position: relative;
+      overflow: hidden;
+
+      .hiddenBlock {
+        width: 15px;
+        border-radius: 0px 4px 4px 0px;
+        background: linear-gradient(270deg, #19af31 41.07%, #138125 100%);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: all 250ms ease-in-out;
+        display: flex;
+        align-items: center;
+
+        a {
+          color: #fff;
+          margin-left: 10px;
+        }
+
+        .btn {
+          display: none;
+        }
+
+        &:hover {
+          left: 0;
+          width: 100%;
+          padding-left: 30px;
+
+          .btn {
+            display: flex;
+            width: 100%;
+            margin-right: 50px;
+            align-items: center;
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+
+          }
+          .btnControl {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+            margin-left: 50px;
+          }
+        }
+
+        .btn {
+          span {
+            margin-left: 10px;
+            font-size: 14px;
+            line-height: 16px;
+            color: #ffffff;
+            transition: all 100ms ease-in-out;
+          }
+
+          &:hover {
+            transform: scale(1.1);
+            margin-left: 50px;
+
+            span {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .wrapTr {
+        padding-left: 30px;
+
+        border-spacing: 5px 0;
+
+        p {
+          margin: 0;
+        }
+      }
+
+      td {
+        padding: 15px 0px;
+
+        span:nth-child(1) {
+          display: inline-block;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  
+}
+
+.withSpacing {
+  border-spacing: 50px 5px;
+  box-sizing: border-box;
+}
+
+.btnControl {
+  margin-right: 50px;
+  display: none;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+
+  span {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    transition: all 100ms ease-in-out;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    span {
+      font-weight: 600;
+    }
+  }
+}

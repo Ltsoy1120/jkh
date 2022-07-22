@@ -1,0 +1,38 @@
+.hiddenBlock {
+  width: 100%;
+  border-radius: 0px 4px 4px 0px;
+  background: linear-gradient(270deg, #19af31 41.07%, #138125 100%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1139px;
+  transition: all 250ms ease-in-out;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  &:hover {
+    left: 0px;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+    margin-right: 70px;
+    cursor: pointer;
+    span {
+      margin-left: 10px;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 500;
+      color: #ffffff;
+      transition: all 100ms ease-in-out;
+    }
+    &:hover {
+      transform: scale(1);
+      span {
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 65px;
+}
+
+.titleblock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.titlediv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.buttondiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.requestInfo {
+    display: flex;
+    width: 210px;
+    height: 248px;
+    background: #F9F9FA;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.pageTitle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #062A3D;
+}
+
+.breadcrumbs {
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B8795;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.requestInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tdate {
+    display: flex;
+    flex-direction: column;
+}
+
+.createDateLabel {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B8795;
+}
+
+.inwork {
+    background: #B8EEC1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    color: #1EA133;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.title {
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+color: #062A3D;
+}
+
+.data {
+width: 360px;
+height: 39px;
+padding: 10px 15px;
+background: #F9F9FA;
+border-radius: 4px;  
+margin-top: 8px;
+margin-bottom: 40px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height, or 136% */
+
+
+/* тест */
+
+color: #062A3D;
+}
+
+.requestData {
+display: flex;
+margin-left: 75px;
+flex-direction: column;
+}
+
+.executantInfo {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-top: 20px;
+}
+
+.tel {
+    margin-left: 20px;
+}
+
+.requestResultImage {
+margin-top: 34px;
+padding: 20px;
+background: url(../public/image/docs.png) no-repeat center center;
+border-radius: 4px;
+width: 75px;
+height: 83px;
+}
+.requestResultTitle {
+margin-bottom: 20px;
+}
+
+.fullstar {
+background: url(../public/image/starfull.png) no-repeat center center;
+border-radius: 1px;
+width: 22px;
+height: 22px;
+}
+
+.star {
+background: url(../public/image/starempty.png) no-repeat center center;
+border-radius: 1px;
+width: 22px;
+height: 22px;
+}
+
+.rating {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #062A3D;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.textblock {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #062A3D;
+}
+
+.button{
+    width: 234px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1EA133;
+    color: #fafafa;
+    text-align: center;
+    padding: 9px 12px;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .buttonbox {
+    margin: 50px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: auto;
+  }

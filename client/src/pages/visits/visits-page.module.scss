@@ -1,0 +1,39 @@
+.infoblock {
+  display: flex;
+  flex-direction: row;
+}
+.table {
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.tablehead {
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+}
+.tperiod {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+}
+.tdate {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+
+.toffice {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.ttopic {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}

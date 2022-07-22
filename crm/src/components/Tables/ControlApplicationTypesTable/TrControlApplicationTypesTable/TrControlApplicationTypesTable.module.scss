@@ -1,0 +1,139 @@
+.wrap {
+  .green {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #1ea133;
+  }
+
+  .executorTwo {
+    margin-top: 15px;
+    display: inline-block;
+  }
+
+  .numberTask {
+    color: #1ea133;
+    font-weight: 500;
+    border-bottom: 1px solid #1ea133;
+    display: inline-block;
+  }
+
+  .deadlineStatus {
+    color: #eb5757;
+  }
+
+  .more {
+    font-weight: 500;
+    color: #1ea133;
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 19px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .newStatus {
+    margin-top: 15px;
+    display: block;
+  }
+
+  .bold {
+    font-weight: 600 !important;
+  }
+
+  .taskTime {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+
+  .phone {
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  .arrow {
+    font-size: 20px;
+    color: #1ea133;
+  }
+
+  .starIcon {
+    color: #f2c94c;
+  }
+
+  .nostarIcon {
+    color: #e2ebef;
+  }
+
+  .priorityHigh {
+    color: #fd9c0d;
+  }
+
+  .linkNumber {
+    color: #1ea133;
+    text-decoration: underline;
+  }
+
+  .numberApplication {
+    color: #1ea133;
+    margin-left: 5px;
+  }
+
+  .address {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .personalAccount {
+    color: #1ea133;
+  }
+
+  .icon {
+    color: #fc9c0d;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+  }
+
+  .priority {
+    display: inline-block;
+    vertical-align: middle;
+    color: #7b61ff;
+  }
+
+  .iconUsual {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7px;
+  }
+
+  .usualText {
+    display: inline-block;
+    vertical-align: middle;
+    color: #33c3e2;
+  }
+}
+
+.wrapSwitch {
+  .switch {
+    border-radius: 9px;
+  }
+
+  span {
+    margin-left: 10px;
+    font-weight: 600;
+  }
+}
+
+.inactive {
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+
+  td span.green {
+    color: #c6d8e1 !important;
+  }
+}

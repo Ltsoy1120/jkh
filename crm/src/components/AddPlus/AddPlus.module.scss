@@ -1,0 +1,16 @@
+.addNewOffice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+  span {
+    margin-right: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6b8795;
+  }
+  a {
+    border-radius: 50%;
+  }
+}

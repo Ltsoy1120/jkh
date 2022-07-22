@@ -1,0 +1,48 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  label,
+  span {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6b8795;
+    margin-bottom: 10px;
+  }
+  .wrapInput {
+    display: flex;
+    align-items: flex-start;
+    input {
+      height: 37px;
+      border-radius: 4px;
+      background: #ffffff;
+      border: 1px solid #eff1f5;
+      outline: none !important;
+      padding-left: 15px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #062a3d;
+      &::placeholder {
+        color: #c6d8e1;
+      }
+      &::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+      }
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+      &:focus {
+        border: 1px solid #1ea133;
+      }
+    }
+  }
+  .disabled {
+    input {
+      color: #dce7ec;
+    }
+  }
+}

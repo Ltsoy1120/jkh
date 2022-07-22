@@ -1,0 +1,30 @@
+.wrapTable {
+    td,
+    th {
+      width: 190px;
+    }
+    td:nth-child(1),
+    th:nth-child(1) {
+      width: 276px;
+      font-weight: 600;
+    }
+    td:nth-child(2),
+    th:nth-child(2) {
+      width: 571px;
+      a {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #1ea133;
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+    td:nth-child(6),
+    th:nth-child(6) {
+      width: 185px;
+    }
+  }
+  

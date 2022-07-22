@@ -1,0 +1,25 @@
+.wrapTable {
+  td,
+  th {
+    width: 190px;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 175px;
+    font-weight: 600;
+  }
+  td:nth-child(2),
+  th:nth-child(2) {
+    span {
+      font-weight: 600;
+    }
+  }
+  td:nth-child(3),
+  th:nth-child(3) {
+    font-weight: 600;
+  }
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 185px;
+  }
+}

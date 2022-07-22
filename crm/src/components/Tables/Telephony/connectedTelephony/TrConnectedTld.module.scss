@@ -1,0 +1,28 @@
+.inactive {
+  a,
+  td,
+  th {
+    color: #c6d8e1 !important;
+  }
+}
+
+.wrapTr {
+  display: block;
+  border-spacing: 200px 0;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.wrapSwitch {
+  justify-content: space-around;
+}
+
+.btn {
+  width: 20% !important;
+}
+
+.unsetAlign {
+  align-items: unset !important;
+}

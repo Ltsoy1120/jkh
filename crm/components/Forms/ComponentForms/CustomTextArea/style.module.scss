@@ -1,0 +1,10 @@
+.textarea:focus-visible, .textarea:focus  {
+  border: 1px solid green;
+  outline: none;
+}
+
+.textarea {
+  border-radius: 5px;
+  border: #EFF1F5 1px solid;
+  resize: none;
+}

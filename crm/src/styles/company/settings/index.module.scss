@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  .wrapAvatar {
+    span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 19px;
+      color: #6b8795;
+      margin-left: 19px;
+    }
+  }
+  .wrapForms {
+    margin-left: 78px;
+  }
+  .wrapButtons {
+    margin-top: 50px;
+  }
+}
+.wrapSelect {
+  margin-bottom: 30px;
+}

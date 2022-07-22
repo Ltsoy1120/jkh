@@ -1,0 +1,19 @@
+.wrapTable {
+  tr {
+    padding: 20px 20px 20px 30px;
+    border-spacing: 0;
+  }
+  td,
+  th {
+    width: 250px;
+  }
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 350px;
+    font-weight: 600;
+    color: #1ea133;
+  }
+  td:nth-child(1) {
+    text-decoration: underline;
+  }
+}

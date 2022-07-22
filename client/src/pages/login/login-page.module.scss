@@ -1,0 +1,45 @@
+.form {
+  width: 265px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45%;
+}
+.inputbox {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #1ea133;
+  color: #fafafa;
+  text-align: center;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  border: 0px;
+}
+
+.buttonbox {
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;
+  min-width: auto;
+}
+
+.title {
+  margin-bottom: 40px;
+  line-height: 28px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.link {
+  color: #097eec;
+  font-size: 14px;
+}

@@ -1,0 +1,28 @@
+.main {
+  background: url("../../../public/images/robot.png") no-repeat top left,
+    url("../../../public/images/bg-main.png") no-repeat top left;
+  min-height: 100vh;
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .form {
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+    h2 {
+      margin-bottom: 40px;
+      line-height: 28px;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .link {
+    color: #097eec;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,27 @@
+.calendar {
+  width: 330px;
+  height: 360px;
+  filter: drop-shadow(1px 1px 25px rgba(136, 165, 191, 0.15));
+  & button {
+    color: #1ea133;
+    font-weight: 300;
+  }
+}
+
+.css-1cd3vk3-MuiButtonBase-root-MuiPickersDay-root {
+  border: none;
+  & .Mui-disabled {
+    color: #c6d8e1;
+  }
+  & .Mui-selected {
+    color: white;
+    background: #1ea133;
+    border-radius: 50%;
+  }
+}
+
+.css-l0iinn {
+  border: 1px solid #eff1f5;
+  padding: 4px 5px 4px 15px;
+  border-radius: 4px;
+}

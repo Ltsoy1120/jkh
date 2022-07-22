@@ -1,0 +1,234 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 65px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formdiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.descr {
+    width: 550px;
+    height: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #062A3D;
+}
+
+.controlBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.greyLabel {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B8795;
+}
+.greyLabels {
+    margin-bottom: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6B8795;
+}
+
+.bigGreyLabel {
+    margin-left: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6B8795;
+}
+
+.button{
+    width: 151px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1EA133;
+    color: #fafafa;
+    text-align: center;
+    padding: 9px 12px;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  .buttonbox {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: auto;
+  }
+
+  .plusIcon {
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 37px;
+    height: 37px;
+  }
+
+  .inputBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-right: 20px;
+  }
+  .inputBlockRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .alertWindow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 30px 14px 22px;
+    background: #FDDEE2;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 23px 15px 3px;
+    color: #E82F45;
+}
+
+.alertWindowMessage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.alertWindowNumber {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 6px;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height, or 136% */
+    text-align: right;
+    color: #E82F45;
+}
+
+.titleblock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 36px;
+}
+
+.labels {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.companyoffices {
+    font-size: 14px;
+    line-height: 17px;
+    color: #C6D8E1;
+    text-decoration: underline 2px;
+}
+
+.companyofficesa {
+    font-size: 14px;
+    line-height: 17px;
+    color: #1EA133;
+    text-decoration: underline 2px;
+}
+
+.requisites {
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C6D8E1;
+    text-decoration: underline 2px;
+}
+
+.requisitesa {
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1EA133;
+    text-decoration: underline 2px;
+}
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #062A3D;
+    margin-bottom: 28px;
+    margin-top: 40px;
+}
+
+.greentitle {
+    margin-bottom: 38px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1EA133;
+}
+.createDateInput {
+    background: #fff;
+    width: 265px;
+    height: 37px;
+    padding: 0;
+}
+
+.css-1smlk3z-MuiPaper-root{
+    padding-bottom: 60px;
+  }
+  
+  .MuiFormLabel-filled {
+    display: none;
+  }
+  

@@ -1,0 +1,32 @@
+.wrapTr {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 25px rgba(136, 165, 191, 0.15);
+  margin-bottom: 10px;
+  border-radius: 0px 4px 4px 0px;
+  display: flex;
+  span {
+    font-weight: 600;
+  }
+  .wrapSwitch {
+    display: flex;
+    pointer-events: none;
+    span {
+      margin-left: 10px;
+      font-weight: 600;
+    }
+  }
+  .green {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #1ea133;
+  }
+  .bold {
+    font-weight: 600 !important;
+  }
+  .time {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
